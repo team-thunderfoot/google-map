@@ -13,7 +13,7 @@ npm install @teamthunderfoot/google-map
 
 ## Usage
 ### Importing the Module
-Note that this is an async await opertion
+Note that this is an async await operation
 ```javascript
 import {Map} from '@teamthunderfoot/google-map';
 const map = new Map({

@@ -1,6 +1,6 @@
 {
-  "name": "google-map",
-  "version": "0.0.1",
+  "name": "@teamthunderfoot/google-map",
+  "version": "0.0.2",
   "description": "google maps helper",
   "main": "index.js",
   "scripts": {
