@@ -1,8 +1,9 @@
 {
   "name": "@teamthunderfoot/google-map",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "google maps helper",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,8 @@
     "maps-javascript"
   ],
   "author": "Thunderfoot",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2"
+  }
 }
