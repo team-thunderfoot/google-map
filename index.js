@@ -98,6 +98,13 @@ class Map {
             infowindow.open(this.map, marker);
         });    
     }
+
+    destroy() {
+        if (this.map) {
+            google.maps.event.clearInstanceListeners(this.map);
+            this.map = null;
+        }
+    }
 }
 
 export default Map;
